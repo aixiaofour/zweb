@@ -11,18 +11,6 @@ __version__ = 0.1
 
 class Core:
 
-	"""
-	no matter what you request,
-	it`s only reponse  `<h1>hello,world</h1>`
-	it has lot of things to do ...
-
-	easy to run it:
-
-		`core = Core()`
-    	`core.run()`
-
-	"""
-
     def wsgi_app(self, environ, start_response):
         request = Request(environ)
         response = self.make_response(request)
