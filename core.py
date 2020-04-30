@@ -14,7 +14,7 @@ class Core:
 	"""
 	no matter what you request,
 	it`s only reponse  `<h1>hello,world</h1>`
-	it has lot of thing to do ...
+	it has lot of things to do ...
 
 	easy to run it:
 
